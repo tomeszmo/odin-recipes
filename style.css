@@ -1,0 +1,44 @@
+#main {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#main h1, h2 {
+    font-family: Benton;    
+}
+ 
+h1 {
+    font-size: 30px;
+}
+
+img.gyros-img {
+    width: 600px;
+    height: 355px; 
+    
+}
+
+p.recipe-section, .servings {
+    font-family: Times;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+section.recipe-ingredients {
+    display: inline-block;
+
+}
+
+.prep-step {
+    font-family: Times;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.preparation h2 {
+    display: inline-block;
+    position: static;
+
+}
+
+ol {
+    list-style-type: none;
+}
