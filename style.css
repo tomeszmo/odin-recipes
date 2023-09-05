@@ -92,6 +92,9 @@ section.recipe-ingredients {
 #main h1 {
     color: #d83434;
     text-shadow: 2px 2px #181818;
+}
+
+h1.main-page-h1 {
     text-align: center;
     border-bottom: 3px outset #181818;
     border-right: 3px outset #181818 ; 
