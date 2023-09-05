@@ -1,23 +1,59 @@
-#main {
-    font-family: 'Courier New', Courier, monospace;
-}
+* {
+    box-sizing: border-box;
+} 
 
-#main h1, h2 {
-    font-family: Benton;    
-}
- 
 h1 {
     font-size: 30px;
 }
 
+h2 {
+    display: inline-block;
+}
+
+ol {
+    list-style-type: none;
+}
+
+a {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    font-weight: bold;
+    color: #d83434;
+    text-decoration: none;
+    border: 2px solid transparent;
+}
+
+a:hover {
+    color: #181818;
+    border-right: 2px outset #181818;
+    border-bottom: 2px outset #181818;   
+}
+
+nav a {
+    display: inline-block;
+    justify-content: center;
+    align-content: center;
+    margin: 2px 15px;
+}
+
+.home {
+    display: flex;
+    justify-content: center;
+}
+
+li.prep-step {
+    
+}
+
 img.gyros-img {
+    display: block;
     width: 600px;
     height: 355px; 
     
 }
 
 p.recipe-section, .servings {
-    font-family: Times;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 15px;
     font-weight: bold;
 }
@@ -27,8 +63,19 @@ section.recipe-ingredients {
 
 }
 
+.main-nav a {
+    display: flex;
+    justify-content: center;
+    width: max-content;
+}
+
+.navigation {
+    display: flex;
+    justify-content: center;
+}
+
 .prep-step {
-    font-family: Times;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 15px;
     font-weight: bold;
 }
@@ -36,9 +83,37 @@ section.recipe-ingredients {
 .preparation h2 {
     display: inline-block;
     position: static;
-
 }
 
-ol {
-    list-style-type: none;
+#main {
+    font-family: 'Courier New', Courier, monospace;
 }
+
+#main h1 {
+    color: #d83434;
+    text-shadow: 2px 2px #181818;
+    text-align: center;
+    border-bottom: 3px outset #181818;
+    border-right: 3px outset #181818 ; 
+}
+
+#main h1, h2 {
+    font-family: Helvetica;    
+}
+
+#steps {
+    display: inline-block;
+    text-align: justify;
+    text-justify: inter-word;
+    margin-right: 20px;
+}
+
+div#teszt-block {
+    display: flex;
+}
+
+div#teszt-block .preparation {
+    width: 1000px;
+    margin-left: 50px;
+}
+
