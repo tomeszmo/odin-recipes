@@ -36,16 +36,17 @@ nav a {
     margin: 2px 15px;
 }
 
+ul li {
+    width: 280px;
+}
+
 .home {
     display: flex;
     justify-content: center;
 }
 
-li.prep-step {
-    
-}
 
-img.gyros-img {
+img.food-img {
     display: block;
     width: 600px;
     height: 355px; 
@@ -74,6 +75,17 @@ section.recipe-ingredients {
     justify-content: center;
 }
 
+.navigation a {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.nav-row {
+    display: flex;
+    width: 500px;
+    border-bottom: 1px outset #181818;
+}
+
 .prep-step {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 15px;
@@ -83,6 +95,7 @@ section.recipe-ingredients {
 .preparation h2 {
     display: inline-block;
     position: static;
+    margin-bottom: 0;;
 }
 
 #main {
