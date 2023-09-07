@@ -23,6 +23,7 @@ a {
     border: 2px solid transparent;
 }
 
+
 a:hover {
     color: #181818;
     border-right: 2px outset #181818;
@@ -84,6 +85,7 @@ section.recipe-ingredients {
     display: flex;
     width: 500px;
     border-bottom: 1px outset #181818;
+    margin-bottom: 50px;
 }
 
 .prep-step {
